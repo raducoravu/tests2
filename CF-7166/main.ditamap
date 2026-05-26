@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Map</title>
+    <topicgroup keyscope="ks1">
+        <keydef keys="abc">
+            <topicmeta>
+                <keywords>
+                    <keyword>kw1</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <topicref href="my%20topics/topic.dita" keys="initialTopic"/>
+        <topicref href="his%20topics/topic2.dita" keys="relatedTopic"/>
+    </topicgroup>
+    <topicgroup keyscope="ks2">
+        <topicref href="my%20topics/topicSibling.dita" keys="Sibling topic"/>
+        <topicref href="my%20topics/topic.dita" keys="initialTopic"/>
+        <keydef keys="abc">
+            <topicmeta>
+                <keywords>
+                    <keyword>kw2</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topicgroup>
+    <keydef keys="image" href="my%20images/Chrysan%20themums.jpg" format="jpg"/>
+    <keydef keys="video" href="videos/Apr-29-2026%2007-38-13.mp4" format="mp4"/>
+    <keydef keys="zip" href="my%20images/test.zip" format="zip"/>
+    <keydef keys="webLink" href="http://www.google.com" format="html" scope="external"/>
+</map>
